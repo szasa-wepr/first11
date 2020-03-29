@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Bin</title>
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital@1&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.wrapper{
+width:100%;
+max-width:1000px;
+
+height:auto;
+}
+
+header{
+width:100%;
+height:auto;
+margin:0 auto;
+position:relative;
+}
+
+img{
+width:100%;
+height:auto;
+}
+
+header h1, h2, p{
+text-align: center;
+} 
+
+header h1{
+margin-top:0.7rem;
+margin-bottom:0.4rem;
+
+font-size:2rem;
+font-family: 'Comic Neue', cursive;
+color:white;
+} 
+
+header p{
+font-size:1rem;
+color:white;
+} 
+
+header h2{
+font-size:1.5rem;
+color:white;
+} 
+
+.container{
+width:70%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+}
+
+main{
+width:90%;
+margin:0 auto;
+}
+
+main article p{
+display:inline;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:1rem;
+}
+
+
+main h1{
+font-family: 'PT Sans Narrow', sans-serif;
+font-size:2rem;
+margin-left:1rem;
+margin-top:1rem;
+}
+
+
+article{
+margin:1rem 0 0 0;
+}
+
+footer{
+background-color:grey;
+display:flex;
+margin-top:1rem;
+}
+
+h3{
+margin:1rem auto;
+font-size:.8rem;
+font-family: 'Open Sans Condensed', sans-serif;
+
+text-align: center;
+} 
+</style>
+</head>
+<body>
+<div class="wrapper">
+<header>
+<div class="container">
+<h2>WELCOME</h2>
+<h1>My first website</h1>
+<p>by Sanyi in 2020 March</p>
+</div>
+<img src="https://images.unsplash.com/photo-1584551882802-ca081b505b49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1025&q=80" alt="wallpaper">
+</header>
+<main>
+<h1>Lorum ipsum</h1>
+<article>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+</p></article>
+
+<article>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+</p></article>
+
+<article>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+</p>
+</article>
+
+<article>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+</p>
+</article>
+
+<article>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+</p>
+</article>
+</main>
+<footer>
+<h3>Copyright 2020 by Sanyi</h3>
+</footer>
+</div>
+
+
+</body>
+</html>
